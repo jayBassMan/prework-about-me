@@ -4,7 +4,9 @@
 
 <head>
     <meta charset="utf-8">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>About Me</title>
     <link rel="stylesheet" href="css/style.css">
 
@@ -12,29 +14,58 @@
 
 <body>
     <header class='masthead'>
-        <p class='masthead-intro'>Hi I'm</p>
+        <p class='masthead-intro'>Hello I'm</p>
         <h1 class='masthead-heading'>Jonathan Johnson</h1>
     </header>
-    <section class="details">
-      <h1>Introduction</h1>
-      <p>Details here...</p>
-      <h1>Where I'm From</h1>
-      <p>Details here...</p>
-      <h1>What are your favorite hobbies?</h1>
-      <p>Details here...</p>
-      <h1>What's your dream job?</h1>
-      <p>Details here...</p>
-      <h1>Where do you live?</h1>
-      <p>Details here...</p>
-      <h1>Why do you want to be a web developer?</h1>
-      <p>Details here...</p>
+    <section class='details'>
+        <div id="boxes">
+          <div class="box active">
+            <h1>Introduction
+              <img src="./images/electrical_engineer.jpg" alt="">
+            </h1> 
+            <p>I'm an Electrical Enigneering Technician and an aspiring Software Developer.
+              I troubleshoot, and repair, industrial machinery and robotics.
+            </p>
+          </div> 
+          <div class="box active"> 
+            <h1>I'm From Nebraska
+              <img src="./images/omaha.jpg" alt="">
+            </h1>
+            <p>I moved from Nebraska to Texas about 6 years ago.</p>
+          </div>
+          <div class="box active">
+            <h1>What are your favorite hobbies? I like to play Bass and program
+              <img src="./images/fender_pBass_natrual.jpeg" alt="">
+            </h1>
+            <p>I play an "American Fender Jazz Deluxe 5 (2007)". It sounds amazing.</p>
+          </div>
+          <div class="box active">
+            <h1>My Dream Job would be in Software Development in data sciences and application building</h1>. 
+              <img src="./images/bottom_view_skyScrapper.jpg" alt="">
+            </h1>
+            <p>There are infinite posiblities in the development industry.</p>
+            </div>
+          <div class="box active">
+            <h1>I live in Dallas Texas
+              <img src="./images/texas.jpg" alt="">
+            </h1>
+            <p>I enjoy it here in dallas. The city provides a lot of opportunity.</p>
+          </div>
+          <div class="box active">
+            <h1>I want to be a software developer because i like being creative.
+              <img src="./images/street_view.jpg" alt="building">
+            </h1>
+            <p>I'm an artist and i enjoy building, creating, and problem solving.</p>
+          </div>
+        </div>
+      </div>
     </section>
-
     <footer id="footer">
         <ul class="social">
           <li><a href="http://www.github.com/usernamehere">Github</a></li>
         </ul>
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
